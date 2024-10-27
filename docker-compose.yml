@@ -1,0 +1,7 @@
+services:
+  kostalidm:
+    image: ghcr.io/techrowdy/kostal_idmpump:1.8
+    container_name: ddns-updater
+    environment:
+      - TZ=Europe/Berlin
+    restart: always
