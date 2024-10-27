@@ -1,0 +1,4 @@
+configparser
+pymodbus
+pyserial_asyncio
+pyserial

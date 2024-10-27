@@ -1,2 +1,2 @@
-* * * * * . $HOME/.profile; /app/kostal-idm.sh > /proc/1/fd/1 2>/proc/1/fd/2
-* * * * * sleep 30; . $HOME/.profile; /app/kostal-idm.sh > /proc/1/fd/1 2>/proc/1/fd/2
+* * * * * /app/kostal-idm.sh > /proc/1/fd/1 2>/proc/1/fd/2
+* * * * * sleep 30; /app/kostal-idm.sh > /proc/1/fd/1 2>/proc/1/fd/2
