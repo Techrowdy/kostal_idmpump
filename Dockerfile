@@ -1,7 +1,7 @@
 FROM alpine:3.20
 
 RUN apk update \
-    && apk add --no-cache python3 python3-dev py3-pip \
+    && apk add --no-cache python3 python3-dev py3-pip tzdata \
     && pip install pymodbus pyserial_asyncio pyserial --break-system-packages
 
 # copy files
